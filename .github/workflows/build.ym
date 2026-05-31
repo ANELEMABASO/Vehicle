@@ -1,0 +1,40 @@
+name: Build Qt Console App
+
+on:
+push: 
+branches: [ main ]
+pull_request:
+branches: [ main ]
+
+jobs: 
+build: runs-on: ubuntu-latest
+
+steps:
+- uses: actions/checkout@v4
+
+- names: Install Qt
+run: sudo apt-get install -y qt6-base-dev cmake
+
+cat > .github/workflows/build.ym << 'EOF'
+name: Build Qt Console App
+
+on:
+push: 
+branches: [ main ]
+pull_request:
+branches: [ main ]
+
+jobs: 
+build: runs-on: ubuntu-latest
+
+steps:
+- uses: actions/checkout@v4
+
+- name: Install Qt
+run: sudo apt-get install -y qt6-base-dev cmake
+
+- name: Configure
+run: cmake -B build
+
+- name: Build
+run: cmake --build build
