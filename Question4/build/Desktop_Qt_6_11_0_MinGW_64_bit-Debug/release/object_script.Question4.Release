@@ -1,0 +1,11 @@
+release/authorvalidator.o
+release/main.o
+release/mainwindow.o
+release/pagesvalidator.o
+release/titlevalidator.o
+release/yeardelegate.o
+release/moc_authorvalidator.o
+release/moc_mainwindow.o
+release/moc_pagesvalidator.o
+release/moc_titlevalidator.o
+release/moc_yeardelegate.o

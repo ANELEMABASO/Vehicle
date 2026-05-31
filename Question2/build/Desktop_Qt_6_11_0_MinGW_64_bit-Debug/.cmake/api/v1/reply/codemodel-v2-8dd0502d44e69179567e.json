@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-760ae3fe1883f9c0bb00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Question2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Question2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Question2-Debug-1c7caedd43ac5c68af2e.json",
+					"name" : "Question2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Question2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Question2_autogen-Debug-b8645f323428d17572c4.json",
+					"name" : "Question2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Question2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Question2_autogen_timestamp_deps-Debug-648f8b5cb61e59a1865c.json",
+					"name" : "Question2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/CC/OneDrive - University of South Africa/Documents/Question2/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/CC/OneDrive - University of South Africa/Documents/Question2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

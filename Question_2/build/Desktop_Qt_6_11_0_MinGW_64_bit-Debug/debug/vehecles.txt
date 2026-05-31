@@ -1,0 +1,40 @@
+Type: PassengerVehecle
+  model: Unknown
+  year: 2000
+  passengerCapacity: 5
+---
+Type: TransportVehecle
+  model: Unknown
+  year: 2000
+  carryingCapacity: 1000
+---
+Type: PassengerVehecle
+  model: Toyota Camry
+  year: 2022
+  passengerCapacity: 5
+---
+Type: PassengerVehecle
+  model: Mercedes Benz Sprinter
+  year: 2021
+  passengerCapacity: 20
+---
+Type: PassengerVehecle
+  model: Porsche 911
+  year: 2023
+  passengerCapacity: 2
+---
+Type: TransportVehecle
+  model: Volvo FH16
+  year: 2020
+  carryingCapacity: 25000
+---
+Type: TransportVehecle
+  model: Ford Transit
+  year: 2019
+  carryingCapacity: 1500
+---
+Type: PassengerVehecle
+  model: Unknown
+  year: 2000
+  passengerCapacity: 5
+---

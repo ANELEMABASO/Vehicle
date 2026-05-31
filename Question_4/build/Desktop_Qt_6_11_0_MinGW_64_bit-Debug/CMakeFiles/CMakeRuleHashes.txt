@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+d8b8af902d48112aa0a21fcfa339e3fb .qt/qml_imports/Question_4_build.cmake
+89d72690579ed25cef08643926cab608 CMakeFiles/Question_4_autogen
+89d72690579ed25cef08643926cab608 CMakeFiles/Question_4_qmlimportscan
+92d1ecdf504981f73d970739e58be0ba Question_4_autogen/timestamp
